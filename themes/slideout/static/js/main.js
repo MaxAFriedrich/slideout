@@ -88,7 +88,6 @@ window.onload = () => {
   movePrevious.addEventListener("click", () => { currentSlide--; setSlide() })
   document.addEventListener("keyup", (event) => {
     event.preventDefault()
-    console.log(event.key)
     if (["ArrowRight", "ArrowDown", "l", "k", " ", "Enter", "PageDown", "d", "s"].includes(event.key))
       currentSlide++
     else if (["ArrowLeft", "ArrowUp", "h", "j", "PageUp", "w", "a"].includes(event.key))
