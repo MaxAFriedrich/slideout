@@ -2,7 +2,6 @@
 
 :root{
   --hl1: #550000;
-  --hl2: #005500;
 
   --text: #ddd;
   --headings: #ccc;
@@ -25,6 +24,10 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+.slideHeader{
+  background-color: inherit;
 }
 
 .header-logo{
@@ -54,16 +57,22 @@ header a{
   display:none;
   width: fit-content;
   height:fit-content;
-  cursor: pointer;
+  align-items: center;
+  user-select: none;
 }
 
 #modeToggle svg{
   border-radius: 0.3rem;
   padding:0.3rem;
+  cursor: pointer;
 }
 
-main{
+#modeToggle span{
+  cursor:default;
+}
 
+#movePrevious, #moveNext, #slideState{
+  display: none;
 }
 
 .article-meta{
@@ -77,6 +86,10 @@ main{
 article{
   width: 80ch;
   margin:auto;
+}
+
+.articleSlides{
+  height: calc(100vh - 7rem);
 }
 
 footer{

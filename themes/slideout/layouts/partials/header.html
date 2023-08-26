@@ -4,6 +4,13 @@
     <h1><a href="/">{{ .Site.Title }}</a></h1>
   </div>
   <div id="modeToggle">
+    <svg id="movePrevious" xmlns="http://www.w3.org/2000/svg" fill="var(--text)" width="24" height="24">
+      <path d="M20 11v2H8l5.5 5.5-1.4 1.4L4 12l8-8 1.4 1.5L8 11h12Z" />
+    </svg>
+    <span id="slideState">10/100</span>
+    <svg id="moveNext" xmlns="http://www.w3.org/2000/svg" fill="var(--text)" width="24" height="24">
+      <path d="M4 11v2h12l-5.5 5.5 1.4 1.4 8-7.9-8-8-1.4 1.5L16 11H4Z" />
+    </svg>
     <svg id="modeNotes" xmlns="http://www.w3.org/2000/svg" fill="var(--text)" width="24" height="24">
       <path d="M14 10V4.5l5.5 5.5M5 3a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V9l-6-6H5Z" />
     </svg>
