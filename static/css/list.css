@@ -1,0 +1,12 @@
+nav{
+  margin:auto;
+  width:60ch;
+}
+a{
+  color:var(--text);
+  display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
