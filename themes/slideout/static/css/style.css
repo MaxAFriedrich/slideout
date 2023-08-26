@@ -5,6 +5,7 @@
   --hl2: #005500;
 
   --text: #ddd;
+  --headings: #ccc;
   --bg: #111;
   --bg1: #222;
 }
@@ -100,6 +101,7 @@ a:hover{
 
 h1, h2, h3, h4, h5, h6{
   font-family: Georgia, 'Times New Roman', Times, serif;
+  color: var(--headings);
 }
 
 /*--------------- Dynamic -------------- */
@@ -107,7 +109,8 @@ h1, h2, h3, h4, h5, h6{
 @media (prefers-color-scheme: light) {
 	:root {
 		--text: #111;
-    --bg: #ddd;
-    --bg: #ccc;
+    --headings:#333;
+    --bg: #fff;
+    --bg1: #ddd;
   }
 }
