@@ -15,7 +15,7 @@ window.onload = () => {
   const moveNext = document.getElementById("moveNext");
   const movePrevious = document.getElementById("movePrevious");
 
-  const slideComponent = ".slide-component{display:none;}"
+  const slideComponent = ".slide-component{display:none;font-size:3rem;}"
 
   function toggleVisual() {
     if (isSlideMode) {

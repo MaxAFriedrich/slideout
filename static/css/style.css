@@ -84,17 +84,30 @@ header a{
 }
 
 article{
-  width: 80ch;
+  max-width: 100ch;
   margin:auto;
 }
 
 .articleSlides{
   height: calc(100vh - 7rem);
+  width: 95%;
+  max-width:100%;
+  overflow-y: auto;
+}
+
+.articleSlides .chroma{
+  font-size: 2rem;
+}
+
+.articleSlides h1,.articleSlides h2, .articleSlides h3, .articleSlides h4, .articleSlides h5, .articleSlides h6{
+  font-size: 3.3;
+  font-weight: 600;
 }
 
 footer{
  background-color: var(--bg1); 
   padding:1rem;
+  margin-top: 1rem;
   display:flex;
 flex-direction: row;
     justify-content: center;
@@ -117,8 +130,14 @@ h1, h2, h3, h4, h5, h6{
   color: var(--headings);
 }
 
+
+
 hr{
   display: none;
+}
+
+.chroma{
+  overflow: auto;
 }
 
 /*--------------- Dynamic -------------- */
