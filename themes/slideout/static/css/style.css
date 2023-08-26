@@ -1,0 +1,113 @@
+/*---------------- Base -------------*/
+
+:root{
+  --hl1: #550000;
+  --hl2: #005500;
+
+  --text: #ddd;
+  --bg: #111;
+  --bg1: #222;
+}
+
+body{
+  margin:0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: var(--text);
+  background-color: var(--bg);
+}
+
+header{
+ background-color: var(--bg1); 
+  margin: 0;
+  display: flex;
+  padding:1rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo{
+  height: 3rem;
+  width:3rem;
+  display: block;
+}
+
+.masthead{
+  display: flex;
+    display: flex;
+    align-items: center;
+}
+
+header h1{
+  margin: 0 1rem;
+  padding: 0;
+}
+
+header a{
+  color: var(--text)
+}
+
+#modeToggle{
+  width: fit-content;
+  padding:0.1rem;
+  display:none;
+  width: fit-content;
+  height:fit-content;
+  cursor: pointer;
+}
+
+#modeToggle svg{
+  border-radius: 0.3rem;
+  padding:0.3rem;
+}
+
+main{
+
+}
+
+.article-meta{
+  text-align: center;
+}
+
+.article-meta h2{
+  font-size: 1.2rem;
+}
+
+article{
+  width: 80ch;
+  margin:auto;
+}
+
+footer{
+ background-color: var(--bg1); 
+  padding:1rem;
+  display:flex;
+flex-direction: row;
+    justify-content: center;
+}
+
+/*-------------- Elements --------------*/
+
+
+a{
+  text-decoration: none;
+  color: var(--hl1);
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*--------------- Dynamic -------------- */
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--text: #111;
+    --bg: #ddd;
+    --bg: #ccc;
+  }
+}
