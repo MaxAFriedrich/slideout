@@ -1,0 +1,5 @@
+<div class="article-meta">
+  <h1><span class="title">{{ .Title | markdownify }}</span></h1>
+  {{ with .Param "author" }}<h2 class="author">{{ . }}</h2>{{ end }}
+  <time class="itemDate" datetime='{{ if .Param "Date" }}{{ dateFormat "2006-01-02T15:04:05Z07:00" (.Param "Date") }}{{ end }}'>{{ if .Param "Date" }}{{ dateFormat "2006-01-02" (.Param "Date") }}{{ end }}</time>
+</div>
