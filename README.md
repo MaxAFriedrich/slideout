@@ -10,8 +10,9 @@ Make sure to add the following to your `config.towl` file.
 theme = "slideout"
 
 [Params]
-  logo = "/img/logo.svg"
-  author = "Max Friedrich"
+  logo = "<Logo Path>"
+  author = "<Your Name>"
+  highlightColor = "<Highlight Color>"
 
 [markup.highlight]
   codeFences = true
