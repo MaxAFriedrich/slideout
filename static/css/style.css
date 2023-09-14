@@ -49,6 +49,10 @@ header a{
   color: var(--text)
 }
 
+img{
+  max-width:100%;
+}
+
 #modeToggle{
   width: fit-content;
   padding:0.1rem;
