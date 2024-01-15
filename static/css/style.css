@@ -50,7 +50,8 @@ header a{
 }
 
 img{
-  max-width:100%;
+  width:75vh;
+  max-height: 80vh;
 }
 
 #modeToggle{
