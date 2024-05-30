@@ -4,7 +4,7 @@ A simple hugo theme for building educational material that could be presented as
 
 ## Usage
 
-Make sure to add the following to your `config.towl` file.
+Make sure to add the following to your `config.toml` file.
 
 ```toml
 theme = "slideout"
