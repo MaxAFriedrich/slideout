@@ -1,3 +1,4 @@
+
 /*---------------- Base -------------*/
 
 :root{
@@ -12,10 +13,17 @@ body{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: var(--text);
   background-color: var(--bg);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main{
+    flex: 1;
 }
 
 header{
- background-color: var(--bg1); 
+ background-color: var(--bg1);
   margin: 0;
   display: flex;
   padding:1rem;
@@ -108,7 +116,7 @@ article{
 }
 
 footer{
- background-color: var(--bg1); 
+ background-color: var(--bg1);
   padding:1rem;
   margin-top: 1rem;
   display:flex;
@@ -141,6 +149,11 @@ hr{
 
 .chroma{
   overflow: auto;
+}
+
+.header-logo img{
+    height: 100%;
+    width: 100%;
 }
 
 /*--------------- Dynamic -------------- */
